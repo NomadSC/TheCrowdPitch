@@ -1,0 +1,1756 @@
+/** box sizing for different browsers **/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type="email"], input[type="password"], input[type="text"] 
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 42px; /** Increase height as required **/
+    padding-bottom: 0;
+    padding-top: 0;/** Now only left & right padding **/
+}
+
+html body {
+    overflow-x: hidden !important;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+div .col-sm-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+
+/** Button Styles **/
+
+.button-line {
+    background: transparent;
+    display: inline-block;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid;
+    margin: 10px;
+    overflow: visible;
+}
+
+
+/** Top Nav Section **/
+
+#top-nav-section {
+    background-color: #F8F8F8;
+}
+
+#top-nav-brand {
+    width: 100px;
+}
+
+#top-nav-links a {
+    padding: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+#top-nav-links a:hover,
+#top-nav-links a:focus,
+#top-nav-links .btn:focus {
+    text-decoration: none;
+    outline: none;
+    color: #337AB7;
+}
+
+#register-links {
+    display: inline-flex;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #register-links {
+        font-size: 13px;
+        padding-right: 3px;
+    }
+}
+
+
+/** Header Section **/
+
+#header-img {
+    width: 100%;
+}
+
+#header-icon {
+    color: #000;
+    font-size: 50px;
+    position: absolute;
+    margin: 0px;
+    padding: 5px;
+    left: 48.5%;
+    top: 50%;
+    width: 50px;
+    opacity: 0.5;
+}
+
+
+/** 24" Desktop **/
+
+@media (min-width: 1682px) and (max-width: 1921px) {
+    #header-icon {
+        font-size: 70px;
+        left: 48.7%;
+    }
+}
+
+
+/** 22" Desktop **/
+
+@media (min-width: 1602px) and (max-width: 1681px) {
+    #header-icon {
+        font-size: 60px;
+        left: 48.7%;
+    }
+}
+
+
+/** 20" Desktop **/
+
+@media (min-width: 1442px) and (max-width: 1601px) {
+    #header-icon {
+        left: 49%;
+    }
+}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #header-icon {
+        font-size: 40px;
+        left: 48.7%;
+    }
+}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #header-icon {
+        font-size: 40px;
+        left: 48%;
+    }
+}
+
+
+/********** Extra small devices only **********/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #header-icon {
+        font-size: 40px;
+        left: 47.7%;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (min-width:415px) and (max-width: 480px) {
+    #header-icon {
+        font-size: 30px;
+        left: 47%;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 Plus 414px width) **********/
+
+@media (min-width: 376px) and (max-width: 414px) {
+    #header-icon {
+        font-size: 30px;
+        top: 48%;
+        left: 46.5%;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 375px width) **********/
+
+@media (min-width: 321px) and (max-width: 375px) {
+    #header-icon {
+        font-size: 30px;
+        top: 47%;
+        left: 46%;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 5 and 4 320px width) **********/
+
+@media (max-width: 320px) {
+    #header-icon {
+        font-size: 20px;
+        top: 47%;
+        left: 46.5%;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (max-width: 479px) {
+    .embed-responsive-item {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+}
+
+
+/** Sticky Navigation Bar **/
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse {
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #444749;
+    border-bottom-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    z-index: 100;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    background-color: #444749;
+}
+
+.navbar-inverse .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar-inverse .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #337AB7;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #337AB7;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #337AB7;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #337AB7;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #337AB7;
+}
+
+.navbar-inverse .navbar-toggle:hover .icon-bar,
+.navbar-inverse .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
+
+
+/** Featured Section **/
+
+#featured-section {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#featured-title {
+    text-transform: uppercase;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#featured-container1 {
+    margin-left: 20px;
+}
+
+#featured-amt {
+    margin: 0 0;
+    background-color: #F5F5F5;
+}
+
+#amt-raised {
+    color: #fff;
+    font-size: 10px;
+    background-color: #4FB350;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#amt-raised p {
+    margin-bottom: 0px;
+}
+
+#main-featured-container {
+    width: 408px;
+    height: 675px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+    box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+}
+
+#main-featured-img {
+    width: 100%;
+}
+
+.main-featured-card-title {
+    font-size: 43px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+#main-card-text {
+    font-size: 22px;
+    margin-top: 0px;
+}
+
+#main-card-row {
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#main-card-lable {
+    text-align: left;
+    padding-top: 10px;
+    border-bottom: #337AB7 solid 1px;
+}
+
+#main-card-amount {
+    text-align: right;
+    padding-top: 10px;
+    border-bottom: #337AB7 solid 1px;
+}
+
+#main-tag {
+    padding-top: 10px;
+}
+
+#main-featured-button {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#main-featured-button a {
+    color: #fff;
+    background-color: #337AB7;
+    border: #337AB7 solid 1px;
+    text-decoration: none;
+    padding-top: 20px;
+    width: 408px;
+    height: 60px;
+}
+
+#main-featured-button a:hover,
+#main-featured-button a:focus,
+#main-featured-button .btn:focus {
+    text-decoration: none;
+    outline: none;
+    color: #337AB7;
+    background-color: #fff;
+}
+
+#small-featured-container1 {
+    width: 200px;
+    height: 327px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+    box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+}
+
+#featured-button1 {
+    font-size: 13px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#featured-button1 a {
+    color: #fff;
+    background-color: #69BD69;
+    border: #69BD69 solid 1px;
+    text-decoration: none;
+    padding-top: 7px;
+    width: 200px;
+}
+
+#featured-button1 a:hover,
+#featured-button1 a:focus,
+#featured-button1 .btn:focus {
+    text-decoration: none;
+    outline: none;
+    color: #69BD69;
+    background-color: #fff;
+}
+
+#small-featured-container2 {
+    width: 200px;
+    height: 327px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+    box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+}
+
+#featured-button2 {
+    font-size: 13px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#featured-button2 a {
+    color: #fff;
+    background-color: #69BD69;
+    border: #69BD69 solid 1px;
+    text-decoration: none;
+    padding-top: 7px;
+    width: 200px;
+}
+
+#featured-button2 a:hover,
+#featured-button2 a:focus,
+#featured-button2 .btn:focus {
+    text-decoration: none;
+    outline: none;
+    color: #69BD69;
+    background-color: #fff;
+}
+
+#small-featured-container3 {
+    width: 200px;
+    height: 327px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+    box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+}
+
+#featured-button3 {
+    font-size: 13px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#featured-button3 a {
+    font-size: 12px;
+    color: #fff;
+    background-color: #F20202;
+    border: #F20202 solid 1px;
+    text-decoration: none;
+    padding-top: 3px;
+    width: 200px;
+}
+
+#featured-button3 a:hover,
+#featured-button3 a:focus,
+#featured-button3 .btn:focus {
+    text-decoration: none;
+    outline: none;
+    color: #F20202;
+    background-color: #fff;
+}
+
+#small-featured-container4 {
+    width: 200px;
+    height: 327px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+    box-shadow: 0px 0px 45px 1px rgba(204, 204, 204, 1);
+}
+
+#featured-button4 {
+    font-size: 13px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#featured-button4 a {
+    font-size: 12px;
+    color: #fff;
+    background-color: #F20202;
+    border: #F20202 solid 1px;
+    text-decoration: none;
+    padding-top: 3px;
+    width: 200px;
+}
+
+#featured-button4 a:hover,
+#featured-button4 a:focus,
+#featured-button4 .btn:focus {
+    text-decoration: none;
+    outline: none;
+    color: #F20202;
+    background-color: #fff;
+}
+
+#small-img {
+    width: 100%;
+}
+
+.featured-card-title {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+#card-text {
+    font-size: 9px;
+    margin-top: 0px;
+}
+
+#card-row {
+    font-size: 8.5px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#card-lable {
+    text-align: left;
+    padding-top: 5px;
+    border-bottom: #337AB7 solid 1px;
+}
+
+#card-amount {
+    text-align: right;
+    padding-top: 5px;
+    border-bottom: #337AB7 solid 1px;
+}
+
+#small-tag {
+    padding-top: 5px;
+}
+
+#tag {
+    padding-right: 10px;
+}
+
+
+/** 24" Desktop **/
+
+@media (min-width: 1682px) and (max-width: 1921px) {
+    #featured-container1 {
+        margin-left: 115px;
+    }
+}
+
+
+/** 22" Desktop **/
+
+@media (min-width: 1602px) and (max-width: 1681px) {
+    #featured-container1 {
+        margin-left: 70px;
+    }
+}
+
+
+/** 20" Desktop **/
+
+@media (min-width: 1442px) and (max-width: 1601px) {
+    #featured-container1 {
+        margin-left: 60px;
+    }
+}
+
+
+/** 19" Desktop and HiDPI Screen Laptop **/
+
+@media (min-width: 1439px) and (max-width: 1441px) {
+    #featured-container1 {
+        margin-left: 30px;
+    }
+}
+
+
+/** MDPI Screen Laptop **/
+
+@media (min-width: 1279px) and (max-width: 1281px) {
+    #main-featured-container {
+        width: 410px;
+        height: 668px;
+    }
+    #main-featured-button a {
+        width: 420px;
+    }
+    #featured-container1 {
+        margin-left: 5px;
+    }
+}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #main-featured-container {
+        height: 667px;
+        margin-top: 70px;
+        margin-left: 305px;
+    }
+    #featured-container1 {
+        margin-left: 170px;
+    }
+}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #main-featured-container {
+        height: 667px;
+        margin-top: 67px;
+    }
+    #featured-container1 {
+        margin-left: 130px;
+    }
+}
+
+
+/********** Extra small devices only **********/
+
+@media (min-width: 480px) and (max-width: 767px) {
+    #main-featured-container {
+        width: 455px;
+        height: 668px;
+    }
+    .main-featured-card-title {
+        font-size: 39px;
+    }
+    #main-card-text {
+        font-size: 20px;
+    }
+    #main-card-row {
+        font-size: 20px;
+    }
+    #main-featured-button a {
+        width: 455px;
+    }
+    #featured-container1 {
+        margin-left: 0px;
+    }
+    #small-featured-container1,
+    #small-featured-container2,
+    #small-featured-container3,
+    #small-featured-container4 {
+        height: 326px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (min-width:415px) and (max-width: 479px) {
+    #main-featured-container {
+        width: 350px;
+        height: 602px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .main-featured-card-title {
+        font-size: 30px;
+    }
+    #main-card-text {
+        font-size: 20px;
+    }
+    #main-card-row {
+        font-size: 20px;
+    }
+    #main-featured-button a {
+        width: 350px;
+    }
+    #featured-container1,
+    #featured-container3 {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .featured-card-title {
+        font-size: 30px;
+    }
+    #card-text {
+        font-size: 15px;
+    }
+    #card-row {
+        font-size: 15px;
+    }
+    #small-featured-container1,
+    #small-featured-container2,
+    #small-featured-container3,
+    #small-featured-container4 {
+        width: 300px;
+        height: 475px;
+    }
+    #featured-button1 a,
+    #featured-button2 a,
+    #featured-button3 a,
+    #featured-button4 a {
+        width: 300px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 Plus 414px width) **********/
+
+@media (min-width: 376px) and (max-width: 414px) {
+    #main-featured-container {
+        width: 300px;
+        height: 518px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+    .main-featured-card-title {
+        font-size: 30px;
+    }
+    #main-card-text {
+        font-size: 15px;
+    }
+    #main-card-row {
+        font-size: 15px;
+    }
+    #main-featured-button a {
+        width: 300px;
+    }
+    #featured-container1,
+    #featured-container3 {
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+    .featured-card-title {
+        font-size: 30px;
+    }
+    #card-text {
+        font-size: 15px;
+    }
+    #card-row {
+        font-size: 15px;
+    }
+    #small-featured-container1,
+    #small-featured-container2,
+    #small-featured-container3,
+    #small-featured-container4 {
+        width: 300px;
+        height: 470px;
+    }
+    #featured-button1 a,
+    #featured-button2 a,
+    #featured-button3 a,
+    #featured-button4 a {
+        width: 300px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 375px width) **********/
+
+@media (min-width: 321px) and (max-width: 375px) {
+    #main-featured-container {
+        width: 300px;
+        height: 518px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .main-featured-card-title {
+        font-size: 30px;
+    }
+    #main-card-text {
+        font-size: 15px;
+    }
+    #main-card-row {
+        font-size: 15px;
+    }
+    #main-featured-button a {
+        width: 300px;
+    }
+    #featured-container1,
+    #featured-container3 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .featured-card-title {
+        font-size: 30px;
+    }
+    #card-text {
+        font-size: 15px;
+    }
+    #card-row {
+        font-size: 15px;
+    }
+    #small-featured-container1,
+    #small-featured-container2,
+    #small-featured-container3,
+    #small-featured-container4 {
+        width: 300px;
+        height: 470px;
+    }
+    #featured-button1 a,
+    #featured-button2 a,
+    #featured-button3 a,
+    #featured-button4 a {
+        width: 300px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 5 and 4 320px width) **********/
+
+@media (max-width: 320px) {
+    #main-featured-container {
+        width: 300px;
+        height: 518px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .main-featured-card-title {
+        font-size: 30px;
+    }
+    #main-card-text {
+        font-size: 15px;
+    }
+    #main-card-row {
+        font-size: 15px;
+    }
+    #main-featured-button a {
+        width: 300px;
+    }
+    #featured-container1,
+    #featured-container3 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .featured-card-title {
+        font-size: 30px;
+    }
+    #card-text {
+        font-size: 15px;
+    }
+    #card-row {
+        font-size: 15px;
+    }
+    #small-featured-container1,
+    #small-featured-container2,
+    #small-featured-container3,
+    #small-featured-container4 {
+        width: 300px;
+        height: 470px;
+    }
+    #featured-button1 a,
+    #featured-button2 a,
+    #featured-button3 a,
+    #featured-button4 a {
+        width: 300px;
+    }
+}
+
+
+/** Invest Section **/
+
+#invest-img,
+#invest3-img {
+    width: 100%;
+}
+
+#invest2-section {
+    background-color: #F0F0ED;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+#invest2-icon {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: #337AB7;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    border-radius: 5px;
+}
+
+
+/** 24" Desktop **/
+
+@media (min-width: 1682px) and (max-width: 1921px) {
+    #invest2-section {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+
+
+/** 22" Desktop **/
+
+@media (min-width: 1602px) and (max-width: 1681px) {
+    #invest2-section {
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+}
+
+
+/** 20" Desktop **/
+
+@media (min-width: 1442px) and (max-width: 1601px) {
+    #invest2-section {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}
+
+
+/** 19" Desktop and HiDPI Screen Laptop **/
+
+@media (min-width: 1439px) and (max-width: 1441px) {
+    #invest2-section {
+        padding-left: 175px;
+        padding-right: 175px;
+    }
+}
+
+
+/** MDPI Screen Laptop **/
+
+@media (min-width: 1279px) and (max-width: 1281px) {
+    #invest2-section {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #invest2-section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #invest2-icon {
+        font-size: 20px;
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+    }
+    #invest2-section h4 {
+        font-size: 15px;
+    }
+    #invest2-section p {
+        font-size: 10px;
+    }
+}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #invest2-section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #invest2-icon {
+        font-size: 20px;
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+    }
+    #invest2-section h4 {
+        font-size: 12px;
+    }
+    #invest2-section p {
+        font-size: 10px;
+    }
+}
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+    #invest2-section {
+        padding-left: 175px;
+        padding-right: 175px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (max-width: 480px) {
+    #invest2-section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+/** Logo Section**/
+
+#logo-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/** Carousel Section **/
+
+#carousel {
+    background-color: #000;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#carousel-title {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+}
+
+#carousel-text {
+    padding-top: 30px;
+}
+
+
+/** About Section **/
+
+#about-section {
+    color: #fff;
+    background-color: #0B6BAA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+#about-text {
+    font-size: 20px;
+}
+
+
+/** 24" Desktop **/
+
+@media (min-width: 1682px) and (max-width: 1921px) {
+    #about-section {
+        padding-left: 540px;
+        padding-right: 540px;
+    }
+    #about-title {
+        font-size: 40px;
+    }
+    #about-text {
+        font-size: 30px;
+    }
+}
+
+
+/** 22" Desktop **/
+
+@media (min-width: 1602px) and (max-width: 1681px) {
+    #about-section {
+        padding-left: 555px;
+        padding-right: 555px;
+    }
+    #about-title {
+        font-size: 30px;
+    }
+    #about-text {
+        font-size: 20px;
+    }
+}
+
+
+/** 20" Desktop **/
+
+@media (min-width: 1442px) and (max-width: 1601px) {
+    #about-section {
+        padding-left: 515px;
+        padding-right: 515px;
+    }
+}
+
+
+/** 19" Desktop and HiDPI Screen Laptop **/
+
+@media (min-width: 1439px) and (max-width: 1441px) {
+    #about-section {
+        padding-left: 435px;
+        padding-right: 435px;
+    }
+}
+
+
+/** MDPI Screen Laptop **/
+
+@media (min-width: 1279px) and (max-width: 1281px) {
+    #about-section {
+        padding-left: 355px;
+        padding-right: 355px;
+    }
+}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #about-section {
+        padding-left: 235px;
+        padding-right: 235px;
+    }
+}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #about-section {
+        padding-left: 105px;
+        padding-right: 105px;
+    }
+}
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+    #about-section {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (max-width: 479px) {
+    #about-section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+/** Show Section **/
+
+#show-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+
+#med-logo {
+    padding-left: 350px;
+    padding-bottom: 30px;
+}
+
+#host-text {
+    padding-left: 350px;
+}
+
+#host {
+    padding-left: 350px;
+}
+
+#video-text {
+    padding-left: 195px;
+}
+
+#show-video {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+
+/** 24" Desktop **/
+
+@media (min-width: 1682px) and (max-width: 1921px) {
+    #med-logo {
+        padding-left: 620px;
+    }
+    #host {
+        padding-left: 620px;
+    }
+    #host-text {
+        padding-left: 620px;
+    }
+    #cast-text {
+        padding-left: 15px;
+    }
+    #cast {
+        padding-left: 15px;
+    }
+    #video-text {
+        padding-left: 500px;
+    }
+    #show-video {
+        padding-left: 500px;
+        padding-right: 500px;
+    }
+}
+
+
+/** 22" Desktop **/
+
+@media (min-width: 1602px) and (max-width: 1681px) {
+    #med-logo {
+        padding-left: 510px;
+    }
+    #host {
+        padding-left: 510px;
+    }
+    #host-text {
+        padding-left: 510px;
+    }
+    #video-text {
+        padding-left: 400px;
+    }
+    #show-video {
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+}
+
+
+/** 20" Desktop **/
+
+@media (min-width: 1442px) and (max-width: 1601px) {
+    #med-logo {
+        padding-left: 470px;
+    }
+    #host {
+        padding-left: 470px;
+    }
+    #host-text {
+        padding-left: 470px;
+    }
+    #cast-col {
+        padding-left: 0px;
+    }
+    #video-text {
+        padding-left: 350px;
+    }
+    #show-video {
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+}
+
+
+/** 19" Desktop and HiDPI Screen Laptop **/
+
+@media (min-width: 1439px) and (max-width: 1441px) {
+    #cast-col {
+        padding-left: 0px;
+    }
+    #video-text {
+        padding-left: 290px;
+    }
+    #show-video {
+        padding-left: 290px;
+        padding-right: 290px;
+    }
+}
+
+
+/** MDPI Screen Laptop **/
+
+@media (min-width: 1279px) and (max-width: 1281px) {
+    #med-logo {
+        padding-left: 340px;
+    }
+    #host {
+        padding-left: 340px;
+    }
+    #host-text {
+        padding-left: 340px;
+    }
+    #video-text {
+        padding-left: 185px;
+    }
+}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #med-logo {
+        padding-left: 250px;
+        padding-bottom: 20px;
+    }
+    #host {
+        padding-left: 250px;
+    }
+    #host-text {
+        padding-left: 250px;
+    }
+    #video-text {
+        padding-left: 100px;
+    }
+    #show-video {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #med-logo {
+        padding-left: 150px;
+    }
+    #host-text {
+        padding-left: 150px;
+    }
+    #host {
+        padding-left: 150px;
+    }
+    #video-text {
+        padding-left: 10px;
+    }
+    #show-video {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #show-video1,
+    #show-video2,
+    #show-video2 {
+        width: 225px;
+        height: 126px;
+    }
+}
+
+
+/********** Extra small devices only **********/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #med-logo {
+        padding-left: 25px;
+    }
+    #host-text {
+        padding-left: 25px;
+    }
+    #host {
+        padding-left: 25px;
+    }
+    #video-text-col {
+        text-align: center;
+    }
+    #video-text {
+        padding-left: 0px;
+    }
+    #show-video {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #show-video1,
+    #show-video2,
+    #show-video2 {
+        width: 450px;
+        height: 253px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (min-width: 415px) and (max-width: 480px) {
+    #med-logo,
+    #host-text,
+    #host {
+        padding-left: 12px;
+    }
+    #host-text,
+    #cast-text,
+    #video-text {
+        font-size: 12px;
+    }
+    #video-text {
+        padding-left: 70px;
+    }
+    #show-video {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #show-video1,
+    #show-video2,
+    #show-video2 {
+        width: 310px;
+        height: 174px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-left: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 Plus 414px width) **********/
+
+@media (min-width: 376px) and (max-width: 414px) {
+    #med-logo,
+    #host-text,
+    #host {
+        padding-left: 12px;
+    }
+    #host-text,
+    #cast-text,
+    #video-text {
+        font-size: 12px;
+    }
+    #video-text {
+        padding-left: 35px;
+    }
+    #show-video {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #show-video1,
+    #show-video2,
+    #show-video2 {
+        width: 310px;
+        height: 174px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-left: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 375px width) **********/
+
+@media (min-width: 321px) and (max-width: 375px) {
+    #med-logo,
+    #host-text,
+    #host {
+        padding-left: 12px;
+    }
+    #host-text,
+    #cast-text,
+    #video-text {
+        font-size: 12px;
+    }
+    #video-text {
+        padding-left: 20px;
+    }
+    #show-video {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #show-video1,
+    #show-video2,
+    #show-video2 {
+        width: 310px;
+        height: 174px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-left: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 5 and 4 320px width) **********/
+
+@media (max-width: 320px) {
+    #med-logo,
+    #host-text,
+    #host {
+        padding-left: 0px;
+    }
+    #host-text,
+    #cast-text,
+    #video-text {
+        font-size: 10px;
+    }
+    #video-text {
+        padding-left: 0px;
+    }
+    #show-video {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #show-video1,
+    #show-video2,
+    #show-video2 {
+        width: 290px;
+        height: 163px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-left: 0px;
+    }
+}
+
+
+/** Footer Section **/
+
+#footer-section {
+    background-color: #202020;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#footer-buttons {
+    width: 100%;
+    padding-left: 150px;
+}
+
+#footer-button1 {
+    color: #fff;
+    background-color: #337AB7;
+    border: none;
+    text-decoration: none;
+    padding-top: 7px;
+    text-align: center;
+}
+
+#footer-button1:hover,
+#footer-button1:focus,
+#footer-button1 .btn:focus {
+    text-decoration: none;
+    outline: none;
+    color: #337AB7;
+    background-color: #fff;
+    border: none;
+}
+
+#footer-button2 {
+    color: #fff;
+    background-color: #5BC0DE;
+    border: none;
+    text-decoration: none;
+    padding-top: 7px;
+    width: 150px;
+    text-align: center;
+}
+
+#footer-button2:hover,
+#footer-button2:focus,
+#footer-button2 .btn:focus {
+    text-decoration: none;
+    outline: none;
+    color: #5BC0DE;
+    background-color: #fff;
+    border: none;
+}
+
+#footer-links {
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 250px;
+}
+
+#footer-links a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+#footer-links a:hover,
+#footer-links a:focus,
+#footer-links .btn:focus {
+    text-decoration: none;
+    outline: none;
+    color: #6c6b6b
+}
+
+#footer-text {
+    color: #fff;
+}
+
+#footer-hr {
+    width: 85%;
+}
+
+#footer-disclosure-row {
+    width: 100%;
+}
+
+#footer-disclosure {
+    color: #fff;
+    font-size: 10px;
+    padding-left: 170px;
+    padding-right: 140px;
+}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #footer-buttons {
+        padding-left: 120px;
+    }
+    #footer-links {
+        padding-left: 280px;
+        padding-right: 150px;
+    }
+    #footer-disclosure {
+        padding-left: 100px;
+        padding-right: 70px;
+    }
+}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #footer-buttons {
+        padding-left: 100px;
+    }
+    #footer-links {
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+    #footer-disclosure {
+        padding-left: 100px;
+        padding-right: 70px;
+    }
+}
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+    #footer-buttons {
+        text-align: center;
+        padding-left: 0px;
+    }
+    #footer-links {
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+    #footer-disclosure {
+        padding-left: 100px;
+        padding-right: 70px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (max-width: 480px) {
+    #footer-buttons {
+        text-align: center;
+        padding-left: 30px;
+    }
+    #footer-links {
+        font-size: 12px;
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+    #footer-disclosure {
+        font-size: 8px;
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+}
+
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (max-width: 479px) {}

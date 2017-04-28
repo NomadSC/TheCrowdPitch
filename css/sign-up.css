@@ -1,0 +1,5100 @@
+#step-bar {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+@media (min-width: 1017px) and (max-width: 1921px) {
+    #page2-step-bar3,
+    #page3-step-bar3,
+    #page4-step-bar3,
+    #page5-step-bar3,
+    #page6-step-bar3 {
+        padding-left: 40px; 
+    }
+}
+
+@media (min-width: 1017px) and (max-width: 1921px) {
+    #page2-step-bar5,
+    #page3-step-bar5,
+    #page4-step-bar5,
+    #page5-step-bar5,
+    #page6-step-bar5 {
+        padding-left: 40px; 
+    }
+}
+
+#page2-step-bar1,
+#page3-step-bar1,
+#page4-step-bar1,
+#page5-step-bar1,
+#page6-step-bar1 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#page2-step-bar6,
+#page3-step-bar6,
+#page4-step-bar6,
+#page5-step-bar6,
+#page6-step-bar6 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#disclosure-text,
+#disclosure-text2,
+#disclosure-text3,
+#disclosure-text4,
+#disclosure-text5,
+#disclosure-text6,
+#disclosure-text7,
+#disclosure-text8,
+#disclosure-text9,
+#disclosure-text10 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#disclosure-close,
+#disclosure-close2,
+#disclosure-close3,
+#disclosure-close4,
+#disclosure-close5,
+#disclosure-close6,
+#disclosure-close7,
+#disclosure-close8,
+#disclosure-close9,
+#disclosure-close10 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#page-title {
+    font-weight: 700;
+}
+
+#page-tag {
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+#page-intro {
+    color: #BBBDBC;
+    font-weight: 700;
+}
+
+#disclosure-text {
+    color: #fff;
+    background-color: #555152;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+/** Sign Up (page 1) **/
+
+#page1-form {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#residency {
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 388px;
+    border: #f5f5f5 solid 2px;
+    border-radius: 5px;
+}
+
+#selectbasic {
+    height: 40px;
+}
+
+#page1-required-field {
+    margin-left: 20px;
+}
+
+#page1-terms {
+    text-align: center;
+}
+
+#page1-links {
+    text-decoration: none;
+}
+
+#singlebutton {
+    border: none;
+    padding: 10px;
+    width: 388px;
+}
+
+#singlebutton a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/********** Extra small devices only **********/
+
+@media (min-width: 668px) and (max-width: 767px) {
+    #residency {
+        width: 505px;
+    }
+    #singlebutton {
+        width: 505px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 Plus 414px width) **********/
+
+@media (min-width: 376px) and (max-width: 414px) {
+    #page1-form {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #residency {
+        width: 322px;
+    }
+    #singlebutton {
+        width: 322px;
+    }
+}
+
+
+/********** Extra small devices only **********/
+
+@media (min-width: 569px) and (max-width: 667px) {
+    #residency {
+        width: 436px;
+    }
+    #singlebutton {
+        width: 436px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 375px width) **********/
+
+@media (min-width: 321px) and (max-width: 375px) {
+    #page1-form {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #residency {
+        width: 285px;
+    }
+    #singlebutton {
+        width: 285px;
+    }
+}
+
+
+/********** Extra small devices only **********/
+
+@media (min-width: 481px) and (max-width: 586px) {
+    #residency {
+        width: 336px;
+    }
+    #singlebutton {
+        width: 336px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (min-width:415px) and (max-width: 480px) {
+    #residency {
+        width: 251px;
+    }
+    #singlebutton {
+        width: 251px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 5 and 4 320px width) **********/
+
+@media (max-width: 320px) {
+    #page1-form {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #residency {
+        width: 232px;
+    }
+    #singlebutton {
+        width: 232px;
+    }
+}
+
+
+/** Sign Up (page 2) **/
+
+#page2-step-bar1 {
+    color: #fff;
+    background-color: #56B841;
+    border: #fff solid 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#page2-step-bar2,
+#page2-step-bar3,
+#page2-step-bar4,
+#page2-step-bar5,
+#page2-step-bar6 {
+    color: #fff;
+    background-color: #2490D9;
+    border: #fff solid 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/** Step-bar Chevron **/
+@media (min-width: 1017px) {
+    #page2-step-bar1 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 100;
+    }
+    #page2-step-bar1:after, #page2-step-bar1:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page2-step-bar1:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #56B841;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page2-step-bar1:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page2-step-bar2 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 90;
+    }
+    #page2-step-bar2:after, #page2-step-bar2:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page2-step-bar2:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page2-step-bar2:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page2-step-bar3 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 80;
+    }
+    #page2-step-bar3:after, #page2-step-bar3:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page2-step-bar3:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page2-step-bar3:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page2-step-bar4 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 70;
+    }
+    #page2-step-bar4:after, #page2-step-bar4:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page2-step-bar4:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page2-step-bar4:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page2-step-bar5 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 60;
+    }
+    #page2-step-bar5:after, #page2-step-bar5:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page2-step-bar5:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page2-step-bar5:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+}
+/** Step-bar Chevron (end) **/
+
+#page2-logo {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#page2-documents {
+    float: left;
+    margin-top: 20px;
+    margin-left: 95px;
+}
+
+#page2-document-text {
+    font-size: 15px;
+    text-align: left;
+    width: 270px;
+}
+
+#filebutton {
+    border: #f5f5f5 solid 1px;
+    width: 885px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#page2-2nd-disclosure {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#disclosure-text {
+    color: #fff;
+    background-color: #555152;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#disclosure-close {
+    font-size: 20px;
+    color: #fff;
+    background-color: #2B2728;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+}
+
+#disclosure-text2 {
+    color: #fff;
+    background-color: #555152;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+#disclosure-close2 {
+    font-size: 20px;
+    color: #fff;
+    background-color: #2B2728;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+}
+
+#page2-buttons {
+    float: right;
+    border-radius: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+}
+
+#singlebutton1 {
+    border: none;
+    padding: 10px;
+}
+
+#singlebutton1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#singlebutton2 {
+    background-color: #56B841;
+    border: none;
+    padding: 10px;
+}
+
+#singlebutton2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#singlebutton2:hover,
+#singlebutton2:focus,
+#singlebutton2 .btn:focus {
+    background-color: #3F842E;
+}
+
+
+/** 24" Desktop **/
+
+@media (min-width: 1682px) and (max-width: 1921px) {
+    #step-bar {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    #page2-logo {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    #page2-documents {
+        margin-left: 330px;
+    }
+    #page2-document-text {
+        font-size: 18px;
+        width: 293px;
+    }
+    #filebutton {
+        width: 970px;
+    }
+    #page2-2nd-disclosure {
+        margin-left: 300px;
+        margin-right: 295px;
+    }
+    #page2-buttons {
+        margin-right: 295px;
+    }
+}
+
+
+/** 22" Desktop **/
+
+@media (min-width: 1602px) and (max-width: 1681px) {
+    #step-bar {
+        margin-left: 24%;
+        margin-right: 24%;
+    }
+    #page2-logo {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    #page2-documents {
+        margin-left: 270px;
+    }
+    #page2-document-text {
+        width: 263px;
+    }
+    #filebutton {
+        width: 850px;
+    }
+    #page2-2nd-disclosure {
+        margin-left: 252px;
+        margin-right: 248px;
+    }
+    #page2-buttons {
+        margin-right: 248px;
+    }
+}
+
+
+/** 20" Desktop **/
+
+@media (min-width: 1442px) and (max-width: 1601px) {
+    #step-bar {
+        margin-left: 23%;
+        margin-right: 23%;
+    }
+    #page2-logo {
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+    #page2-documents {
+        margin-left: 245px;
+    }
+    #page2-document-text {
+        width: 253px;
+    }
+    #filebutton {
+        width: 836px;
+    }
+    #page2-2nd-disclosure {
+        margin-left: 220px;
+        margin-right: 217px;
+    }
+    #page2-buttons {
+        margin-right: 217px;
+    }
+}
+
+
+/** 19" Desktop and HiDPI Screen Laptop **/
+
+@media (min-width: 1439px) and (max-width: 1441px) {
+    #page2-documents {
+        margin-left: 100px;
+    }
+    #page2-document-text {
+        font-size: 16px;
+        width: 280px;
+    }
+    #filebutton {
+        width: 943px;
+    }
+}
+
+
+/** MDPI Screen Laptop **/
+
+@media (min-width: 1279px) and (max-width: 1281px) {
+    #page2-documents {
+        margin-left: 90px;
+    }
+    #page2-document-text {
+        width: 253px;
+    }
+    #filebutton {
+        width: 818px;
+    }
+}
+
+
+/********** Medium devices only (iPad) **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #step-bar {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    #page2-logo-img {
+        padding-top: 10px;
+    }
+    #page2-documents {
+        margin-left: 90px;
+    }
+    #page2-document-text {
+        font-size: 12px;
+        width: 195px;
+    }
+    #filebutton {
+        width: 637px;
+    }
+}
+
+
+/********** Small devices only (e.g., iPad 768px width) **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #step-bar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-step-bar1,
+    #page2-step-bar2,
+    #page2-step-bar3,
+    #page2-step-bar4,
+    #page2-step-bar5,
+    #page2-step-bar6 {
+        font-size: 11px;
+    }
+    #page2-logo {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-logo-img {
+        padding-top: 15px;
+    }
+    #page2-documents {
+        margin-left: 0px;
+    }
+    #page2-document-text {
+        font-size: 11px;
+        width: 185px;
+    }
+    #filebutton {
+        width: 553px;
+    }
+    #page2-2nd-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 6 Plus) **********/
+
+@media (min-width: 668px) and (max-width: 767px) {
+    #step-bar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-step-bar1,
+    #page2-step-bar2,
+    #page2-step-bar3,
+    #page2-step-bar4,
+    #page2-step-bar5,
+    #page2-step-bar6 {
+        font-size: 10px;
+    }
+    #page2-logo {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-logo-img {
+        padding-top: 15px;
+    }
+    #disclosure-text, #disclosure-text2 {
+        font-size: 11px;
+    }
+    #disclosure-close {
+        font-size: 11px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #disclosure-close2 {
+        font-size: 11px;
+        padding-top: 17.5px;
+        padding-bottom: 17.5px;
+    }
+    #page2-documents {
+        margin-left: 0px;
+    }
+    #page2-document-text {
+        font-size: 11px;
+        width: 175px;
+    }
+    #filebutton {
+        width: 530px;
+    }
+    #page2-2nd-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 Plus 414px width) **********/
+
+@media (min-width: 376px) and (max-width: 414px) {
+    #step-bar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-step-bar1,
+    #page2-step-bar2,
+    #page2-step-bar3,
+    #page2-step-bar4,
+    #page2-step-bar5,
+    #page2-step-bar6 {
+        font-size: 7px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page-title {
+        font-size: 20px;
+    }
+    #page-intro {
+        font-size: 13px;
+    }
+    #page2-logo {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-logo-img {
+        padding-top: 15px;
+    }
+    #disclosure-text {
+        font-size: 8px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    #disclosure-close {
+        font-size: 8px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #page2-documents {
+        margin-left: 0px;
+    }
+    #page2-document-text {
+        font-size: 8px;
+        width: 95px;
+    }
+    #filebutton {
+        font-size: 10px;
+        width: 290px;
+    }
+    #page2-2nd-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-buttons {
+        margin-right: 0px;
+    }
+    #disclosure-text2 {
+        font-size: 8px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+    #disclosure-close2 {
+        font-size: 8px;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        padding-left: 10px;
+    }
+    #singlebutton1,
+    #singlebutton2 {
+        font-size: 8px;
+        padding: 5px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 6) **********/
+
+@media (min-width: 569px) and (max-width: 667px) {
+    #step-bar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-step-bar1,
+    #page2-step-bar2,
+    #page2-step-bar3,
+    #page2-step-bar4,
+    #page2-step-bar5,
+    #page2-step-bar6 {
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page-intro {
+        font-size: 20px;
+    }
+    #page2-logo {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-logo-img {
+        padding-top: 5px;
+    }
+    #disclosure-text {
+        font-size: 10px;
+        padding-top: 13px;
+        padding-bottom: 3px;
+    }
+    #disclosure-close {
+        font-size: 10px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    #page2-documents {
+        margin-left: 0px;
+    }
+    #page2-document-text {
+        font-size: 10px;
+        width: 160px;
+    }
+    #filebutton {
+        font-size: 10px;
+        width: 477px;
+    }
+    #page2-2nd-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text2 {
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+    #disclosure-close2 {
+        font-size: 10px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        padding-left: 10px;
+    }
+    #page2-buttons {
+        margin-right: 0px;
+    }
+    #singlebutton1,
+    #singlebutton2 {
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 375px width) **********/
+
+@media (min-width: 321px) and (max-width: 375px) {
+    #step-bar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-step-bar1,
+    #page2-step-bar2,
+    #page2-step-bar3,
+    #page2-step-bar4,
+    #page2-step-bar5,
+    #page2-step-bar6 {
+        font-size: 7px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page-title {
+        font-size: 20px;
+    }
+    #page-intro {
+        font-size: 12px;
+    }
+    #page2-logo {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-logo-img {
+        padding-top: 10px;
+    }
+    #disclosure-text {
+        font-size: 8px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    #disclosure-close {
+        font-size: 8px;
+        padding-top: 15.5px;
+        padding-bottom: 15.5px;
+    }
+    #page2-documents {
+        margin-left: 0px;
+    }
+    #page2-document-text {
+        font-size: 8px;
+        width: 85px;
+    }
+    #filebutton {
+        font-size: 8px;
+        width: 260px;
+    }
+    #page2-2nd-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text2 {
+        font-size: 8px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+    #disclosure-close2 {
+        font-size: 8px;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        padding-left: 10px;
+    }
+    #page2-buttons {
+        margin-right: 0px;
+    }
+    #singlebutton1,
+    #singlebutton2 {
+        font-size: 8px;
+        padding: 5px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 5) **********/
+
+@media (min-width: 481px) and (max-width: 586px) {
+    #step-bar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-step-bar1,
+    #page2-step-bar2,
+    #page2-step-bar3,
+    #page2-step-bar4,
+    #page2-step-bar5,
+    #page2-step-bar6 {
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page-intro {
+        font-size: 18px;
+    }
+    #page2-logo {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-logo-img {
+        padding-top: 5px;
+    }
+    #disclosure-text {
+        font-size: 10px;
+        padding-top: 13px;
+        padding-bottom: 3px;
+    }
+    #disclosure-close {
+        font-size: 10px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    #page2-documents {
+        margin-left: 0px;
+    }
+    #page2-document-text {
+        font-size: 10px;
+        width: 135px;
+    }
+    #filebutton {
+        font-size: 10px;
+        width: 403px;
+    }
+    #page2-2nd-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text2 {
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+    #disclosure-close2 {
+        font-size: 10px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 10px;
+    }
+    #page2-buttons {
+        margin-right: 0px;
+    }
+    #singlebutton1,
+    #singlebutton2 {
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (min-width:415px) and (max-width: 480px) {
+    #step-bar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-step-bar1,
+    #page2-step-bar2,
+    #page2-step-bar3,
+    #page2-step-bar4,
+    #page2-step-bar5,
+    #page2-step-bar6 {
+        font-size: 9px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page-title {
+        font-size: 30px;
+    }
+    #page-intro {
+        font-size: 15px;
+    }
+    #page2-logo {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-logo-img {
+        padding-top: 10px;
+    }
+    #disclosure-text {
+        font-size: 8px;
+        padding-top: 13px;
+        padding-bottom: 3px;
+    }
+    #disclosure-close {
+        font-size: 10px;
+        padding-top: 11.5px;
+        padding-bottom: 11.5px;
+    }
+    #page2-documents {
+        margin-left: 0px;
+    }
+    #page2-document-text {
+        font-size: 9px;
+        width: 110px;
+    }
+    #filebutton {
+        font-size: 9px;
+        width: 340px;
+    }
+    #page2-2nd-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text2 {
+        font-size: 8px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+    #disclosure-close2 {
+        font-size: 10px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 10px;
+    }
+    #page2-buttons {
+        margin-right: 0px;
+    }
+    #singlebutton1,
+    #singlebutton2 {
+        font-size: 8px;
+        padding: 5px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 5 and 4 320px width) **********/
+
+@media (max-width: 320px) {
+    #step-bar {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-step-bar1,
+    #page2-step-bar2,
+    #page2-step-bar3,
+    #page2-step-bar4,
+    #page2-step-bar5,
+    #page2-step-bar6 {
+        font-size: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page-title {
+        font-size: 20px;
+    }
+    #page-intro {
+        font-size: 10px;
+    }
+    #page2-logo {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #page2-logo-img {
+        padding-top: 10px;
+    }
+    #disclosure-text {
+        width: 65%;
+        font-size: 6px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    #disclosure-close {
+        font-size: 6px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #page2-documents {
+        margin-left: 0px;
+    }
+    #page2-document-text {
+        font-size: 6px;
+        width: 73px;
+    }
+    #filebutton {
+        font-size: 6px;
+        width: 213px;
+    }
+    #page2-2nd-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text2 {
+        width: 65%;
+        font-size: 6px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+    #disclosure-close2 {
+        font-size: 6px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 10px;
+    }
+    #page2-buttons {
+        margin-right: 0px;
+    }
+    #singlebutton1,
+    #singlebutton2 {
+        font-size: 8px;
+        padding: 5px;
+    }
+}
+
+
+/** Sign Up (page 3) **/
+
+#page3-step-bar2 {
+    color: #fff;
+    background-color: #56B841;
+    border: #fff solid 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#page3-step-bar1,
+#page3-step-bar3,
+#page3-step-bar4,
+#page3-step-bar5,
+#page3-step-bar6 {
+    color: #fff;
+    background-color: #2490D9;
+    border: #fff solid 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/** Step-bar Chevron **/
+@media (min-width: 1017px) {
+    #page3-step-bar1 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 100;
+    }
+    #page3-step-bar1:after, #page3-step-bar1:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page3-step-bar1:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page3-step-bar1:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page3-step-bar2 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 90;
+    }
+    #page3-step-bar2:after, #page3-step-bar2:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page3-step-bar2:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #56B841;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page3-step-bar2:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page3-step-bar3 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 80;
+    }
+    #page3-step-bar3:after, #page3-step-bar3:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page3-step-bar3:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page3-step-bar3:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page3-step-bar4 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 70;
+    }
+    #page3-step-bar4:after, #page3-step-bar4:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page3-step-bar4:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page3-step-bar4:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page3-step-bar5 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 60;
+    }
+    #page3-step-bar5:after, #page3-step-bar5:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page3-step-bar5:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page3-step-bar5:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+}
+/** Step-bar Chevron (end) **/
+
+#coverphoto {
+    background-color: #EBEBEB;
+    width: 1150px;
+    height: 439px;
+}
+
+#coverphoto-button {
+    color: #2490D9;
+    background-color: #EBEBEB;
+    border: #EBEBEB solid 1px;
+    border-radius: 0px;
+    position: absolute;
+    bottom: 45px;
+    margin-bottom: 7px;
+    margin: 7px;
+    right: 20px;
+}
+
+#company-profilepic {
+    position: absolute;
+    bottom: 40px;
+    margin-bottom: 7px;
+    margin: 7px;
+    left: 40px;
+}
+
+#company-profile-img {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 0px;
+}
+
+#company-profilepic-button {
+    color: #2490D9;
+    background-color: #f5f5f5;
+    border: #f5f5f5 solid 1px;
+    border-radius: 0px;
+}
+
+#company-profilepic-button1 {
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+}
+
+#page3-disclosure {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+#disclosure-text3 {
+    color: #fff;
+    background-color: #555152;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+#disclosure-close3 {
+    font-size: 20px;
+    color: #fff;
+    background-color: #2B2728;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+}
+
+#disclosure-text4 {
+    color: #fff;
+    background-color: #555152;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#disclosure-close4 {
+    font-size: 20px;
+    color: #fff;
+    background-color: #2B2728;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+}
+
+#page3-input-bar-title {
+    text-align: left;
+    width: 200px;
+    margin-left: 260px;
+}
+
+#page3-input-bar,
+#page3-input-bar-description {
+    width: 600px;
+}
+
+#page3-input-bar-link {
+    width: 350px;
+}
+
+#page3-input-bar-description {
+    height: 100px;
+}
+
+#page3-buttons {
+    float: right;
+    border-radius: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 260px;
+}
+
+
+/** 24" Desktop **/
+
+@media (min-width: 1682px) and (max-width: 1921px) {
+    #page3-disclosure {
+        margin-left: 390px;
+        margin-right: 450px;
+    }
+    #page3-input-bar-title {
+        width: 200px;
+        margin-left: 450px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        width: 775px;
+    }
+    #page3-input-bar-link {
+        width: 527px;
+    }
+    #page3-buttons {
+        margin-right: 450px;
+    }
+}
+
+
+/** 22" Desktop **/
+
+@media (min-width: 1602px) and (max-width: 1681px) {
+    #page3-disclosure {
+        margin-left: 310px;
+        margin-right: 350px;
+    }
+    #page3-input-bar-title {
+        width: 200px;
+        margin-left: 350px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        width: 735px;
+    }
+    #page3-input-bar-link {
+        width: 488px;
+    }
+    #page3-buttons {
+        margin-right: 350px;
+    }
+}
+
+
+/** 20" Desktop **/
+
+@media (min-width: 1442px) and (max-width: 1601px) {
+    #page3-disclosure {
+        margin-left: 250px;
+        margin-right: 300px;
+    }
+    #page3-input-bar-title {
+        width: 200px;
+        margin-left: 300px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        width: 755px;
+    }
+    #page3-input-bar-link {
+        width: 508px;
+    }
+    #page3-buttons {
+        margin-right: 300px;
+    }
+}
+
+
+/** 19" Desktop and HiDPI Screen Laptop **/
+
+@media (min-width: 1439px) and (max-width: 1441px) {
+    #page3-disclosure {
+        margin-left: 50px;
+        margin-right: 150px;
+    }
+    #page3-input-bar-title {
+        width: 200px;
+        margin-left: 150px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        width: 895px;
+    }
+    #page3-input-bar-link {
+        width: 647px;
+    }
+    #page3-buttons {
+        margin-right: 150px;
+    }
+}
+
+
+/** MDPI Screen Laptop **/
+
+@media (min-width: 1279px) and (max-width: 1281px) {
+    #page3-disclosure {
+        margin-left: 75px;
+        margin-right: 130px;
+    }
+    #page3-input-bar-title {
+        width: 200px;
+        margin-left: 130px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        width: 775px;
+    }
+    #page3-input-bar-link {
+        width: 527px;
+    }
+    #page3-buttons {
+        margin-right: 130px;
+    }
+}
+
+
+/********** Medium devices only (iPad) **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #coverphoto {
+        width: 970px;
+        height: 370px;
+    }
+    #page3-disclosure {
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+    #page3-input-bar-title {
+        width: 200px;
+        margin-left: 50px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        width: 695px;
+    }
+    #page3-input-bar-link {
+        width: 447px;
+    }
+    #page3-buttons {
+        margin-right: 50px;
+    }
+}
+
+
+/********** Small devices only (e.g., iPad 768px width) **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #page3-step-bar1,
+    #page3-step-bar2,
+    #page3-step-bar3,
+    #page3-step-bar4,
+    #page3-step-bar5,
+    #page3-step-bar6 {
+        font-size: 11px;
+    }
+    #coverphoto {
+        width: 750px;
+        height: 286px;
+    }
+    #page3-disclosure {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    #disclosure-text3,
+    #disclosure-text4,
+    #disclosure-close3,
+    #disclosure-close4 {
+        font-size: 12px;
+    }
+    #disclosure-text3 {
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    #disclosure-text4 {
+        padding-top: 13.5px;
+        padding-bottom: 8.5px;
+    }
+    #page3-input-bar-title {
+        width: 190px;
+        margin-left: 0px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        width: 550px;
+    }
+    #page3-input-bar-link {
+        width: 303px;
+    }
+    #page3-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 6 Plus) **********/
+
+@media (min-width: 668px) and (max-width: 767px) {
+    #page3-step-bar1,
+    #page3-step-bar2,
+    #page3-step-bar3,
+    #page3-step-bar4,
+    #page3-step-bar5,
+    #page3-step-bar6 {
+        font-size: 10px;
+    }
+    #coverphoto {
+        width: 705px;
+        height: 269px;
+    }
+    #page3-disclosure {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    #disclosure-text3,
+    #disclosure-text4,
+    #disclosure-close3,
+    #disclosure-close4 {
+        font-size: 11px;
+    }
+    #disclosure-text3 {
+        padding-top: 7px;
+        padding-bottom: 0px;
+    }
+    #disclosure-text4 {
+        padding-top: 13.5px;
+        padding-bottom: 8.5px;
+    }
+    #page3-input-bar-title {
+        width: 183px;
+        margin-left: 0px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        width: 525px;
+    }
+    #page3-input-bar-link {
+        width: 277px;
+    }
+    #page3-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 Plus 414px width) **********/
+
+@media (min-width: 376px) and (max-width: 414px) {
+    #page3-step-bar1,
+    #page3-step-bar2,
+    #page3-step-bar3,
+    #page3-step-bar4,
+    #page3-step-bar5,
+    #page3-step-bar6 {
+        font-size: 7px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #coverphoto {
+        width: 385px;
+        height: 147px;
+    }
+    #page3-file{
+        font-size: 8px;
+    }
+    #page3-disclosure {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    #disclosure-text3,
+    #disclosure-text4,
+    #disclosure-close3,
+    #disclosure-close4 {
+        font-size: 8px;
+    }
+    #disclosure-text3 {
+        padding-top: 7px;
+        padding-bottom: 0px;
+    }
+    #disclosure-text4 {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    #disclosure-close3 {
+        padding-top: 19.5px;
+        padding-bottom: 19.5px;
+    }
+    #disclosure-close4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #page3-input-bar-title {
+        font-size: 8px;
+        width: 100px;
+        margin-left: 0px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        font-size: 8px;
+        width: 285px;
+    }
+    .input-group-addon {
+        font-size: 8px;
+    }
+    #page3-input-bar-link {
+        font-size: 8px;
+        width: 138px;
+    }
+    #page3-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 6) **********/
+
+@media (min-width: 569px) and (max-width: 667px) {
+    #page3-step-bar1,
+    #page3-step-bar2,
+    #page3-step-bar3,
+    #page3-step-bar4,
+    #page3-step-bar5,
+    #page3-step-bar6 {
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #coverphoto {
+        width: 637px;
+        height: 243px;
+    }
+    #page3-file{
+        font-size: 10px;
+    }
+    #page3-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text3,
+    #disclosure-text4,
+    #disclosure-close3,
+    #disclosure-close4 {
+        font-size: 10px;
+    }
+    #disclosure-text3 {
+        padding-top: 7px;
+        padding-bottom: 0px;
+    }
+    #disclosure-text4 {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    #disclosure-close3 {
+        padding-top: 15.5px;
+        padding-bottom: 15.5px;
+    }
+    #disclosure-close4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #page3-input-bar-title {
+        font-size: 10px;
+        width: 160px;
+        margin-left: 0px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        font-size: 10px;
+        width: 477px;
+    }
+    .input-group-addon {
+        font-size: 10px;
+    }
+    #page3-input-bar-link {
+        font-size: 10px;
+        width: 292px;
+    }
+    #page3-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 375px width) **********/
+
+@media (min-width: 321px) and (max-width: 375px) {
+    #page3-step-bar1,
+    #page3-step-bar2,
+    #page3-step-bar3,
+    #page3-step-bar4,
+    #page3-step-bar5,
+    #page3-step-bar6 {
+        font-size: 7px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #coverphoto {
+        width: 345px;
+        height: 132px;
+    }
+    #page3-file{
+        font-size: 8px;
+    }
+    #page3-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text3,
+    #disclosure-text4,
+    #disclosure-close3,
+    #disclosure-close4 {
+        font-size: 8px;
+    }
+    #disclosure-text3 {
+        padding-top: 7px;
+        padding-bottom: 0px;
+    }
+    #disclosure-text4 {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    #disclosure-close3 {
+        padding-top: 19.5px;
+        padding-bottom: 19.5px;
+    }
+    #disclosure-close4 {
+        padding-top: 15.5px;
+        padding-bottom: 15.5px;
+    }
+    #page3-input-bar-title {
+        font-size: 8px;
+        width: 85px;
+        margin-left: 0px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        font-size: 8px;
+        width: 260px;
+    }
+    .input-group-addon {
+        font-size: 8px;
+    }
+    #page3-input-bar-link {
+        font-size: 8px;
+        width: 113px;
+    }
+    #page3-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 5) **********/
+
+@media (min-width: 481px) and (max-width: 586px) {
+    #page3-step-bar1,
+    #page3-step-bar2,
+    #page3-step-bar3,
+    #page3-step-bar4,
+    #page3-step-bar5,
+    #page3-step-bar6 {
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #coverphoto {
+        width: 537px;
+        height: 205px;
+    }
+    #page3-file{
+        font-size: 10px;
+    }
+    #page3-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text3,
+    #disclosure-text4,
+    #disclosure-close3,
+    #disclosure-close4 {
+        font-size: 10px;
+    }
+    #disclosure-text3 {
+        padding-top: 7px;
+        padding-bottom: 0px;
+    }
+    #disclosure-text4 {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    #disclosure-close3 {
+        padding-top: 22.5px;
+        padding-bottom: 22.5px;
+    }
+    #disclosure-close4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #page3-input-bar-title {
+        font-size: 10px;
+        width: 135px;
+        margin-left: 0px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        font-size: 10px;
+        width: 403px;
+    }
+    .input-group-addon {
+        font-size: 10px;
+    }
+    #page3-input-bar-link {
+        font-size: 10px;
+        width: 217px;
+    }
+    #page3-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (min-width:415px) and (max-width: 480px) {
+    #page3-step-bar1,
+    #page3-step-bar2,
+    #page3-step-bar3,
+    #page3-step-bar4,
+    #page3-step-bar5,
+    #page3-step-bar6 {
+        font-size: 9px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #coverphoto {
+        width: 450px;
+        height: 172px;
+    }
+    #page3-file{
+        font-size: 9px;
+    }
+    #page3-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text3,
+    #disclosure-text4,
+    #disclosure-close3,
+    #disclosure-close4 {
+        font-size: 8px;
+    }
+    #disclosure-text3 {
+        padding-top: 7px;
+        padding-bottom: 0px;
+    }
+    #disclosure-text4 {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    #disclosure-close3 {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    #disclosure-close4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #page3-input-bar-title {
+        font-size: 9px;
+        width: 112px;
+        margin-left: 0px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        font-size: 9px;
+        width: 340px;
+    }
+    .input-group-addon {
+        font-size: 9px;
+    }
+    #page3-input-bar-link {
+        font-size: 9px;
+        width: 173px;
+    }
+    #page3-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 5 and 4 320px width) **********/
+
+@media (max-width: 320px) {
+    #page3-step-bar1,
+    #page3-step-bar2,
+    #page3-step-bar3,
+    #page3-step-bar4,
+    #page3-step-bar5,
+    #page3-step-bar6 {
+        font-size: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #coverphoto {
+        width: 290px;
+        height: 111px;
+    }
+    #page3-file{
+        font-size: 6px;
+    }
+    #page3-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text3,
+    #disclosure-text4,
+    #disclosure-close3,
+    #disclosure-close4 {
+        font-size: 6px;
+    }
+    #disclosure-text3 {
+        width: 65%;
+        padding-top: 7px;
+        padding-bottom: 0px;
+    }
+    #disclosure-text4 {
+        width: 65%;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    #disclosure-close3 {
+        padding-top: 16.5px;
+        padding-bottom: 16.5px;
+    }
+    #disclosure-close4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #page3-input-bar-title {
+        font-size: 6px;
+        width: 70px;
+        margin-left: 0px;
+    }
+    #page3-input-bar,
+    #page3-input-bar-description {
+        font-size: 6px;
+        width: 218px;
+    }
+    .input-group-addon {
+        font-size: 6px;
+    }
+    #page3-input-bar-link {
+        font-size: 6px;
+        width: 101px;
+    }
+    #page3-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/** Sign Up (page 4) **/
+
+#page4-step-bar3 {
+    color: #fff;
+    background-color: #56B841;
+    border: #fff solid 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#page4-step-bar1,
+#page4-step-bar2,
+#page4-step-bar4,
+#page4-step-bar5,
+#page4-step-bar6 {
+    color: #fff;
+    background-color: #2490D9;
+    border: #fff solid 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/** Step-bar Chevron **/
+@media (min-width: 1017px) {
+    #page4-step-bar1 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 100;
+    }
+    #page4-step-bar1:after, #page4-step-bar1:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page4-step-bar1:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page4-step-bar1:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page4-step-bar2 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 90;
+    }
+    #page4-step-bar2:after, #page4-step-bar2:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page4-step-bar2:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page4-step-bar2:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page4-step-bar3 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 80;
+    }
+    #page4-step-bar3:after, #page4-step-bar3:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page4-step-bar3:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #56B841;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+   0}
+    #page4-step-bar3:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page4-step-bar4 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 70;
+    }
+    #page4-step-bar4:after, #page4-step-bar4:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page4-step-bar4:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page4-step-bar4:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page4-step-bar5 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 60;
+    }
+    #page4-step-bar5:after, #page4-step-bar5:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page4-step-bar5:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page4-step-bar5:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+}
+/** Step-bar Chevron (end) **/
+
+#page4-disclosure {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+#disclosure-text5 {
+    color: #fff;
+    background-color: #555152;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#disclosure-close5 {
+    font-size: 20px;
+    color: #fff;
+    background-color: #2B2728;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+}
+
+#page4-input-bar-title {
+    text-align: left;
+    width: 200px;
+    margin-left: 260px;
+}
+
+#page4-input-bar-description {
+    width: 600px;
+    height: 100px;
+}
+
+#page4-disclosure6 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+#disclosure-text6 {
+    color: #fff;
+    background-color: #555152;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+#disclosure-close6 {
+    font-size: 20px;
+    color: #fff;
+    background-color: #2B2728;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 10px;
+}
+
+#page4-disclosure7 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+#disclosure-text7 {
+    color: #fff;
+    background-color: #555152;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+#disclosure-close7 {
+    font-size: 20px;
+    color: #fff;
+    background-color: #2B2728;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 10px;
+}
+
+#page4-disclosure8 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+#disclosure-text8 {
+    color: #fff;
+    background-color: #555152;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#disclosure-close8 {
+    font-size: 20px;
+    color: #fff;
+    background-color: #2B2728;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+}
+
+#profile-button {
+    color: #2490D9;
+    background-color: #f5f5f5;
+    border: #f5f5f5 solid 1px;
+    border-radius: 0px;
+}
+
+#profile-button1 {
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+#profile-pic {
+    margin-left: 460px;
+}
+
+#profile-pic-img {
+    background-color: grey;
+    border-radius: 0px;
+}
+
+#page4-file {
+    font-size: 10px;
+    margin-left: 460px;
+}
+
+#page4-input-bar-profile {
+    width: 390px;
+}
+
+#page4-socialmedia {
+    margin-left: 440px;
+}
+
+#page4-input-bar-social1 {
+    width: 295px;
+}
+
+#page4-input-bar-social2 {
+    width: 295px;
+    margin-left: 20px;
+}
+
+#page4-addmember {
+    margin-right: 250px;
+}
+
+#page4-buttons-col {
+    padding: 0px;
+}
+
+#page4-buttons {
+    float: right;
+    border-radius: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 250px;
+}
+
+
+/** 24" Desktop **/
+
+@media (min-width: 1682px) and (max-width: 1921px) {
+    #page4-disclosure {
+        margin-left: 390px;
+        margin-right: 450px;
+    }
+    #page4-input-bar-title {
+        width: 200px;
+        margin-left: 450px;
+    }
+    #page4-input-bar {
+        width: 775px;
+    }
+    #page4-input-bar-description {
+        width: 775px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 648px;
+    }
+    #page4-file {
+        margin-left: 648px;
+    }
+    #page4-input-bar-profile {
+        width: 475px;
+    }
+    #page4-socialmedia {
+        margin-left: 630px;
+    }
+    #page4-input-bar-social1 {
+        width: 360px;
+    }
+    #page4-input-bar-social2 {
+        width: 360px;
+        margin-left: 0px;
+    }
+    #page4-addmember {
+        margin-right: 450px;
+    }
+    #page4-buttons {
+        margin-right: 450px;
+    }
+}
+
+
+/** 22" Desktop **/
+
+@media (min-width: 1602px) and (max-width: 1681px) {
+    #page4-disclosure {
+        margin-left: 310px;
+        margin-right: 350px;
+    }
+    #page4-input-bar-title {
+        width: 200px;
+        margin-left: 350px;
+    }
+    #page4-input-bar {
+        width: 735px;
+    }
+    #page4-input-bar-description {
+        width: 735px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 553px;
+    }
+    #page4-file {
+        margin-left: 553px;
+    }
+    #page4-input-bar-profile {
+        width: 455px;
+    }
+    #page4-socialmedia {
+        margin-left: 535px;
+    }
+    #page4-input-bar-social1 {
+        width: 360px;
+    }
+    #page4-input-bar-social2 {
+        width: 360px;
+        margin-left: 5px;
+    }
+    #page4-addmember {
+        margin-right: 350px;
+    }
+    #page4-buttons {
+        margin-right: 350px;
+    }
+}
+
+
+/** 20" Desktop **/
+
+@media (min-width: 1442px) and (max-width: 1601px) {
+    #page4-disclosure {
+        margin-left: 250px;
+        margin-right: 300px;
+    }
+    #page4-input-bar-title {
+        width: 200px;
+        margin-left: 300px;
+    }
+    #page4-input-bar {
+        width: 755px;
+    }
+    #page4-input-bar-description {
+        width: 755px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 500px;
+    }
+    #page4-file {
+        margin-left: 500px;
+    }
+    #page4-input-bar-profile {
+        width: 465px;
+    }
+    #page4-socialmedia {
+        margin-left: 480px;
+    }
+    #page4-input-bar-social1 {
+        width: 375px;
+    }
+    #page4-input-bar-social2 {
+        width: 375px;
+        margin-left: 25px;
+    }
+    #page4-addmember {
+        margin-right: 300px;
+    }
+    #page4-buttons {
+        margin-right: 300px;
+    }
+}
+
+
+/** 19" Desktop and HiDPI Screen Laptop **/
+
+@media (min-width: 1439px) and (max-width: 1441px) {
+    #page4-disclosure {
+        margin-left: 50px;
+        margin-right: 150px;
+    }
+    #disclosure-close6 {
+        padding-top: 18.5px;
+        padding-bottom: 13.5px;
+    }
+    #disclosure-close7 {
+        padding-top: 18.5px;
+        padding-bottom: 13.5px;
+    }
+    #page4-input-bar-title {
+        width: 200px;
+        margin-left: 150px;
+    }
+    #page4-input-bar {
+        width: 895px;
+    }
+    #page4-input-bar-description {
+        width: 895px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 350px;
+    }
+    #page4-file {
+        margin-left: 350px;
+    }
+    #page4-input-bar-profile {
+        width: 535px;
+    }
+    #page4-socialmedia {
+        margin-left: 330px;
+    }
+    #page4-input-bar-social1 {
+        width: 440px;
+    }
+    #page4-input-bar-social2 {
+        width: 440px;
+        margin-left: 105px;
+    }
+    #page4-addmember {
+        margin-right: 150px;
+    }
+    #page4-buttons {
+        margin-right: 150px;
+    }
+}
+
+
+/** MDPI Screen Laptop **/
+
+@media (min-width: 1279px) and (max-width: 1281px) {
+    #page4-disclosure {
+        margin-left: 75px;
+        margin-right: 130px;
+    }
+    #page4-input-bar-title {
+        width: 200px;
+        margin-left: 130px;
+    }
+    #page4-input-bar {
+        width: 775px;
+    }
+    #page4-input-bar-description {
+        width: 775px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 333px;
+    }
+    #page4-file {
+        margin-left: 333px;
+    }
+    #page4-input-bar-profile {
+        width: 475px;
+    }
+    #page4-socialmedia {
+        margin-left: 315px;
+    }
+    #page4-input-bar-social1 {
+        width: 375px;
+    }
+    #page4-input-bar-social2 {
+        width: 375px;
+        margin-left: 90px;
+    }
+    #page4-addmember {
+        margin-right: 130px;
+    }
+    #page4-buttons {
+        margin-right: 130px;
+    }
+}
+
+
+/********** Medium devices only (iPad) **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #page4-disclosure {
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+    #page4-input-bar-title {
+        width: 200px;
+        margin-left: 50px;
+    }
+    #page4-input-bar {
+        width: 695px;
+    }
+    #page4-input-bar-description {
+        width: 695px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 250px;
+    }
+    #page4-file {
+        margin-left: 250px;
+    }
+    #page4-input-bar-profile {
+        width: 435px;
+    }
+    #page4-socialmedia {
+        margin-left: 235px;
+    }
+    #page4-input-bar-social1 {
+        width: 340px;
+    }
+    #page4-input-bar-social2 {
+        width: 340px;
+        margin-left: 100px;
+    }
+    #page4-addmember {
+        margin-right: 50px;
+    }
+    #page4-buttons {
+        margin-right: 50px;
+    }
+}
+
+
+/********** Small devices only (e.g., iPad 768px width) **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #page4-step-bar1,
+    #page4-step-bar2,
+    #page4-step-bar3,
+    #page4-step-bar4,
+    #page4-step-bar5,
+    #page4-step-bar6 {
+        font-size: 11px;
+    }
+    #page4-disclosure {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    #disclosure-close6 {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    #disclosure-close7 {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    #page4-input-bar-title {
+        width: 190px;
+        margin-left: 0px;
+    }
+    #page4-input-bar {
+        width: 550px;
+    }
+    #page4-input-bar-description {
+        width: 550px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 193px;
+    }
+    #page4-file {
+        margin-left: 193px;
+    }
+    #page4-input-bar-profile {
+        width: 355px;
+    }
+    #page4-socialmedia {
+        margin-left: 175px;
+    }
+    #page4-input-bar-social1 {
+        width: 255px;
+    }
+    #page4-input-bar-social2 {
+        width: 255px;
+        margin-left: 100px;
+    }
+    #page4-addmember {
+        margin-right: 0px;
+    }
+    #page4-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 6 Plus) **********/
+
+@media (min-width: 668px) and (max-width: 767px) {
+    #page4-step-bar1,
+    #page4-step-bar2,
+    #page4-step-bar3,
+    #page4-step-bar4,
+    #page4-step-bar5,
+    #page4-step-bar6 {
+        font-size: 10px;
+    }
+    #page4-disclosure {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    #disclosure-text5,
+    #disclosure-text6,
+    #disclosure-text7,
+    #disclosure-text8,
+    #disclosure-close5,
+    #disclosure-close6,
+    #disclosure-close7,
+    #disclosure-close8 {
+        font-size: 11px;
+    }
+    #disclosure-close5 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #disclosure-close6 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #disclosure-close7 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #disclosure-close8 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #page4-input-bar-title {
+        width: 183px;
+        margin-left: 0px;
+    }
+    #page4-input-bar {
+        width: 525px;
+    }
+    #page4-input-bar-description {
+        width: 525px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 185px;
+    }
+    #page4-file {
+        margin-left: 185px;
+    }
+    #page4-input-bar-profile {
+        width: 340px;
+    }
+    #page4-socialmedia {
+        margin-left: 170px;
+    }
+    #page4-input-bar-social1 {
+        width: 523px;
+    }
+    #page4-input-bar-social2 {
+        width: 523px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page4-addmember {
+        margin-right: 0px;
+    }
+    #page4-buttons {
+        margin-right: 0px;
+    }
+    #page4-buttons-col {
+        padding: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 Plus 414px width) **********/
+
+@media (min-width: 376px) and (max-width: 414px) {
+    #page4-step-bar1,
+    #page4-step-bar2,
+    #page4-step-bar3,
+    #page4-step-bar4,
+    #page4-step-bar5,
+    #page4-step-bar6 {
+        font-size: 7px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page4-disclosure {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    #disclosure-text5,
+    #disclosure-text6,
+    #disclosure-text7,
+    #disclosure-text8,
+    #disclosure-close5,
+    #disclosure-close6,
+    #disclosure-close7,
+    #disclosure-close8 {
+        font-size: 8px;
+    }
+    #disclosure-close5 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #disclosure-close6 {
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+    }
+    #disclosure-close7 {
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+    }
+    #disclosure-close8 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #page4-input-bar-title {
+        font-size: 8px;
+        width: 100px;
+        margin-left: 0px;
+    }
+    #page4-input-bar {
+        font-size: 8px;
+        width: 138px;
+    }
+    #page4-input-bar-description {
+        font-size: 8px;
+        width: 285px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 105px;
+    }
+    #page4-file {
+        font-size: 8px;
+        margin-left: 105px;
+    }
+    #page4-profile-form {
+        margin-top: 210px;
+        margin-left: -105px;
+    }
+    #page4-input-bar-profile {
+        font-size: 8px;
+        width: 280px;
+    }
+    #page4-socialmedia {
+        margin-left: 85px;
+    }
+    #page4-input-bar-social1 {
+        font-size: 8px;
+        width: 280px;
+    }
+    #page4-input-bar-social2 {
+        font-size: 8px;
+        width: 280px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page4-addmember {
+        font-size: 8px;
+        margin-right: 0px;
+    }
+    #page4-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 6) **********/
+
+@media (min-width: 569px) and (max-width: 667px) {
+    #page4-step-bar1,
+    #page4-step-bar2,
+    #page4-step-bar3,
+    #page4-step-bar4,
+    #page4-step-bar5,
+    #page4-step-bar6 {
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page4-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text5,
+    #disclosure-text6,
+    #disclosure-text7,
+    #disclosure-text8,
+    #disclosure-close5,
+    #disclosure-close6,
+    #disclosure-close7,
+    #disclosure-close8 {
+        font-size: 10px;
+    }
+    #disclosure-close5 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #disclosure-close6 {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    #disclosure-close7 {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    #disclosure-close8 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #page4-input-bar-title {
+        font-size: 10px;
+        width: 160px;
+        margin-left: 0px;
+    }
+    #page4-input-bar {
+        font-size: 10px;
+        width: 477px;
+    }
+    #page4-input-bar-description {
+        font-size: 10px;
+        width: 477px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 160px;
+    }
+    #page4-file {
+        font-size: 10px;
+        margin-left: 160px;
+    }
+    #page4-profile-form {
+        margin-top: 210px;
+        margin-left: -175px;
+    }
+    #page4-input-bar-profile {
+        font-size: 10px;
+        width: 477px;
+    }
+    #page4-socialmedia {
+        margin-left: 145px;
+    }
+    #page4-input-bar-social1 {
+        font-size: 10px;
+        width: 477px;
+    }
+    #page4-input-bar-social2 {
+        font-size: 10px;
+        width: 477px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page4-addmember {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    #page4-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 375px width) **********/
+
+@media (min-width: 321px) and (max-width: 375px) {
+    #page4-step-bar1,
+    #page4-step-bar2,
+    #page4-step-bar3,
+    #page4-step-bar4,
+    #page4-step-bar5,
+    #page4-step-bar6 {
+        font-size: 7px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page4-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text5,
+    #disclosure-text6,
+    #disclosure-text7,
+    #disclosure-text8,
+    #disclosure-close5,
+    #disclosure-close6,
+    #disclosure-close7,
+    #disclosure-close8 {
+        font-size: 8px;
+    }
+    #disclosure-close5 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #disclosure-close6 {
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+    }
+    #disclosure-close7 {
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+    }
+    #disclosure-close8 {
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
+    }
+    #page4-input-bar-title {
+        font-size: 8px;
+        width: 85px;
+        margin-left: 0px;
+    }
+    #page4-input-bar {
+        font-size: 8px;
+        width: 200px;
+    }
+    #page4-input-bar-description {
+        font-size: 8px;
+        width: 260px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 85px;
+    }
+    #page4-file {
+        font-size: 8px;
+        margin-left: 85px;
+    }
+    #page4-profile-form {
+        margin-top: 210px;
+        margin-left: -105px;
+    }
+    #page4-input-bar-profile {
+        font-size: 8px;
+        width: 260px;
+    }
+    #page4-socialmedia {
+        margin-left: 68px;
+    }
+    #page4-input-bar-social1 {
+        font-size: 8px;
+        width: 260px;
+    }
+    #page4-input-bar-social2 {
+        font-size: 8px;
+        width: 260px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page4-addmember {
+        font-size: 8px;
+        margin-right: 0px;
+    }
+    #page4-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 5) **********/
+
+@media (min-width: 481px) and (max-width: 586px) {
+    #page4-step-bar1,
+    #page4-step-bar2,
+    #page4-step-bar3,
+    #page4-step-bar4,
+    #page4-step-bar5,
+    #page4-step-bar6 {
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page4-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text5,
+    #disclosure-text6,
+    #disclosure-text7,
+    #disclosure-text8,
+    #disclosure-close5,
+    #disclosure-close6,
+    #disclosure-close7,
+    #disclosure-close8 {
+        font-size: 10px;
+    }
+    #disclosure-close5 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #disclosure-close6 {
+        padding-top: 31px;
+        padding-bottom: 31px;
+    }
+    #disclosure-close7 {
+        padding-top: 31px;
+        padding-bottom: 31px;
+    }
+    #disclosure-close8 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #page4-input-bar-title {
+        font-size: 10px;
+        width: 135px;
+        margin-left: 0px;
+    }
+    #page4-input-bar {
+        font-size: 10px;
+        width: 403px;
+    }
+    #page4-input-bar-description {
+        font-size: 10px;
+        width: 403px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 135px;
+    }
+    #page4-file {
+        font-size: 10px;
+        margin-left: 135px;
+    }
+    #page4-profile-form {
+        margin-top: 210px;
+        margin-left: -150px;
+    }
+    #page4-input-bar-profile {
+        font-size: 10px;
+        width: 405px;
+    }
+    #page4-socialmedia {
+        margin-left: 120px;
+    }
+    #page4-input-bar-social1 {
+        font-size: 10px;
+        width: 405px;
+    }
+    #page4-input-bar-social2 {
+        font-size: 10px;
+        width: 405px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page4-addmember {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    #page4-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (min-width:415px) and (max-width: 480px) {
+    #page4-step-bar1,
+    #page4-step-bar2,
+    #page4-step-bar3,
+    #page4-step-bar4,
+    #page4-step-bar5,
+    #page4-step-bar6 {
+        font-size: 9px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page4-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text5,
+    #disclosure-text6,
+    #disclosure-text7,
+    #disclosure-text8,
+    #disclosure-close5,
+    #disclosure-close6,
+    #disclosure-close7,
+    #disclosure-close8 {
+        font-size: 8px;
+    }
+    #disclosure-close5 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #disclosure-close6 {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+    #disclosure-close7 {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+    #disclosure-close8 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #page4-input-bar-title {
+        font-size: 9px;
+        width: 112px;
+        margin-left: 0px;
+    }
+    #page4-input-bar {
+        font-size: 9px;
+        width: 340px;
+    }
+    #page4-input-bar-description {
+        font-size: 9px;
+        width: 340px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 115px;
+    }
+    #page4-file {
+        font-size: 9px;
+        margin-left: 115px;
+    }
+    #page4-profile-form {
+        margin-top: 210px;
+        margin-left: -125px;
+    }
+    #page4-input-bar-profile {
+        font-size: 9px;
+        width: 335px;
+    }
+    #page4-socialmedia {
+        margin-left: 100px;
+    }
+    #page4-input-bar-social1 {
+        font-size: 9px;
+        width: 335px;
+    }
+    #page4-input-bar-social2 {
+        font-size: 9px;
+        width: 335px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page4-addmember {
+        font-size: 9px;
+        margin-right: 0px;
+    }
+    #page4-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 5 and 4 320px width) **********/
+
+@media (max-width: 320px) {
+    #page4-step-bar1,
+    #page4-step-bar2,
+    #page4-step-bar3,
+    #page4-step-bar4,
+    #page4-step-bar5,
+    #page4-step-bar6 {
+        font-size: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page4-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text5,
+    #disclosure-text6,
+    #disclosure-text7,
+    #disclosure-text8,
+    #disclosure-close5,
+    #disclosure-close6,
+    #disclosure-close7,
+    #disclosure-close8 {
+        font-size: 6px;
+    }
+    #disclosure-text5,
+    #disclosure-text6,
+    #disclosure-text7,
+    #disclosure-text8 {
+        width: 65%;
+    }
+    #disclosure-close5 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #disclosure-close6 {
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+    #disclosure-close7 {
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+    #disclosure-close8 {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    #page4-input-bar-title {
+        font-size: 6px;
+        width: 70px;
+        margin-left: 0px;
+    }
+    #page4-input-bar {
+        font-size: 6px;
+        width: 218px;
+    }
+    #page4-input-bar-description {
+        font-size: 6px;
+        width: 218px;
+        height: 100px;
+    }
+    #profile-pic {
+        margin-left: 72px;
+    }
+    #page4-file {
+        font-size: 6px;
+        margin-left: 72px;
+    }
+    #page4-profile-form {
+        margin-top: 210px;
+        margin-left: -90px;
+    }
+    #page4-input-bar-profile {
+        font-size: 6px;
+        width: 218px;
+    }
+    #page4-socialmedia {
+        margin-left: 55px;
+    }
+    #page4-input-bar-social1 {
+        font-size: 6px;
+        width: 218px;
+    }
+    #page4-input-bar-social2 {
+        font-size: 6px;
+        width: 218px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page4-addmember {
+        font-size: 6px;
+        margin-right: 0px;
+    }
+    #page4-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/** Sign Up (page 5) **/
+
+#page5-step-bar4 {
+    color: #fff;
+    background-color: #56B841;
+    border: #fff solid 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#page5-step-bar1,
+#page5-step-bar2,
+#page5-step-bar3,
+#page5-step-bar5,
+#page5-step-bar6 {
+    color: #fff;
+    background-color: #2490D9;
+    border: #fff solid 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/** Step-bar Chevron **/
+@media (min-width: 1017px) {
+    #page5-step-bar1 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 100;
+    }
+    #page5-step-bar1:after, #page5-step-bar1:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page5-step-bar1:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page5-step-bar1:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page5-step-bar2 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 90;
+    }
+    #page5-step-bar2:after, #page5-step-bar2:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page5-step-bar2:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page5-step-bar2:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page5-step-bar3 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 80;
+    }
+    #page5-step-bar3:after, #page5-step-bar3:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page5-step-bar3:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page5-step-bar3:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page5-step-bar4 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 70;
+    }
+    #page5-step-bar4:after, #page5-step-bar4:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page5-step-bar4:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #56B841;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page5-step-bar4:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page5-step-bar5 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 60;
+    }
+    #page5-step-bar5:after, #page5-step-bar5:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page5-step-bar5:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page5-step-bar5:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+}
+/** Step-bar Chevron (end) **/
+
+#page5-disclosure {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+#disclosure-text9 {
+    color: #fff;
+    background-color: #555152;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+#disclosure-close9 {
+    font-size: 20px;
+    color: #fff;
+    background-color: #2B2728;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+}
+
+#disclosure-text10 {
+    color: #fff;
+    background-color: #555152;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+#disclosure-close10 {
+    font-size: 20px;
+    color: #fff;
+    background-color: #2B2728;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+}
+
+#page5-input-bar-address2 {
+    width: 600px;
+    margin-left: 460px;
+}
+
+#page5-companylocation {
+    margin-left: 445px;
+}
+
+#page5-companylocation-col {
+    padding-right: 0px;
+}
+
+#page5-input-bar-city {
+    width: 155px;
+}
+
+#page5-input-bar-state {
+    width: 155px;
+}
+
+#page5-input-bar-zip {
+    width: 155px;
+}
+
+#page5-2col {
+    margin-left: 445px;
+}
+
+#page5-input-bar-col1 {
+    width: 285px;
+}
+
+#page5-input-bar-col2 {
+    width: 285px;
+    margin-left: 20px;
+}
+
+#page5-buttons {
+    float: right;
+    border-radius: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 255px;
+}
+
+
+/** 24" Desktop **/
+
+@media (min-width: 1682px) and (max-width: 1921px) {
+    #page5-disclosure {
+        margin-left: 390px;
+        margin-right: 450px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    #page5-input-bar-address2 {
+        width: 775px;
+        margin-left: 650px;
+    }
+    #page5-companylocation {
+        margin-left: 635px;
+        margin-right: 0px;
+    }
+    #page5-2col {
+        margin-left: 635px;
+    }
+    #page5-input-bar-col1 {
+        width: 338px;
+    }
+    #page5-input-bar-col2 {
+        width: 338px;
+        margin-left: 20px;
+    }
+    #page5-buttons {
+        margin-right: 450px;
+    }
+}
+
+
+/** 22" Desktop **/
+
+@media (min-width: 1602px) and (max-width: 1681px) {
+    #page5-disclosure {
+        margin-left: 310px;
+        margin-right: 350px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    #page5-input-bar-address2 {
+        width: 735px;
+        margin-left: 550px;
+    }
+    #page5-companylocation {
+        margin-left: 535px;
+        margin-right: -60px;
+    }
+    #page5-2col {
+        margin-left: 535px;
+    }
+    #page5-input-bar-col1 {
+        width: 344px;
+    }
+    #page5-input-bar-col2 {
+        width: 344px;
+        margin-left: 20px;
+    }
+    #page5-buttons {
+        margin-right: 350px;
+    }
+}
+
+
+/** 20" Desktop **/
+
+@media (min-width: 1442px) and (max-width: 1601px) {
+    #page5-disclosure {
+        margin-left: 250px;
+        margin-right: 300px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    #page5-input-bar-address2 {
+        width: 755px;
+        margin-left: 500px;
+    }
+    #page5-companylocation {
+        margin-left: 485px;
+        margin-right: -130px;
+    }
+    #page5-2col {
+        margin-left: 485px;
+    }
+    #page5-input-bar-col1 {
+        width: 360px;
+    }
+    #page5-input-bar-col2 {
+        width: 360px;
+        margin-left: 35px;
+    }
+    #page5-buttons {
+        margin-right: 300px;
+    }
+}
+
+
+/** 19" Desktop and HiDPI Screen Laptop **/
+
+@media (min-width: 1439px) and (max-width: 1441px) {
+    #page5-disclosure {
+        margin-left: 50px;
+        margin-right: 150px;
+    }
+    #disclosure-text9 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    #page5-input-bar-address2 {
+        width: 895px;
+        margin-left: 350px;
+    }
+    #page5-companylocation {
+        margin-left: 335px;
+        margin-right: -420px;
+    }
+    #page5-2col {
+        margin-left: 335px;
+    }
+    #page5-input-bar-col1 {
+        width: 430px;
+    }
+    #page5-input-bar-col2 {
+        width: 430px;
+        margin-left: 107px;
+    }
+    #page5-buttons {
+        margin-right: 150px;
+    }
+}
+
+
+/** MDPI Screen Laptop **/
+
+@media (min-width: 1279px) and (max-width: 1281px) {
+    #page5-disclosure {
+        margin-left: 75px;
+        margin-right: 130px;
+    }
+    #disclosure-text9 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close9 {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    #page5-input-bar-address2 {
+        width: 775px;
+        margin-left: 330px;
+    }
+    #page5-companylocation {
+        margin-left: 315px;
+        margin-right: -325px;
+    }
+    #page5-2col {
+        margin-left: 315px;
+    }
+    #page5-input-bar-col1 {
+        width: 380px;
+    }
+    #page5-input-bar-col2 {
+        width: 380px;
+        margin-left: 85px;
+    }
+    #page5-buttons {
+        margin-right: 130px;
+    }
+}
+
+
+/********** Medium devices only (iPad) **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #page5-disclosure {
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+    #disclosure-text9 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close9 {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    #page5-input-bar-address2 {
+        width: 695px;
+        margin-left: 250px;
+    }
+    #page5-companylocation {
+        margin-left: 235px;
+    }
+    #page5-input-bar-state {
+        margin-left: 76px;
+    }
+    #page5-input-bar-zip {
+        margin-left: 153px;
+    }
+    #page5-2col {
+        margin-left: 235px;
+    }
+    #page5-input-bar-col1 {
+        width: 335px;
+    }
+    #page5-input-bar-col2 {
+        width: 335px;
+        margin-left: 103px;
+    }
+    #page5-buttons {
+        margin-right: 50px;
+    }
+}
+
+
+/********** Small devices only (e.g., iPad 768px width) **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #page5-step-bar1,
+    #page5-step-bar2,
+    #page5-step-bar3,
+    #page5-step-bar4,
+    #page5-step-bar5,
+    #page5-step-bar6 {
+        font-size: 11px;
+    }
+    #page5-disclosure {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    #disclosure-text9 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close9 {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    #page5-input-bar-address2 {
+        width: 550px;
+        margin-left: 190px;
+    }
+    #page5-companylocation {
+        margin-left: 175px;
+    }
+    #page5-input-bar-state {
+        margin-left: 52px;
+    }
+    #page5-input-bar-zip {
+        margin-left: 105px;
+    }
+    #page5-2col {
+        margin-left: 175px;
+    }
+    #page5-input-bar-col1 {
+        width: 270px;
+    }
+    #page5-input-bar-col2 {
+        width: 270px;
+        margin-left: 87px;
+    }
+    #page5-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 6 Plus) **********/
+
+@media (min-width: 668px) and (max-width: 767px) {
+    #page5-step-bar1,
+    #page5-step-bar2,
+    #page5-step-bar3,
+    #page5-step-bar4,
+    #page5-step-bar5,
+    #page5-step-bar6 {
+        font-size: 10px;
+    }
+    #page5-disclosure {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    #disclosure-text9,
+    #disclosure-text10,
+    #disclosure-close9,
+    #disclosure-close10 {
+        font-size: 11px;
+    }
+    #disclosure-text9 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close9 {
+        padding-top: 27.5px;
+        padding-bottom: 27.5px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 27.5px;
+        padding-bottom: 27.5px;
+    }
+    #page5-input-bar-address2 {
+        width: 525px;
+        margin-left: 183px;
+    }
+    #page5-companylocation {
+        margin-left: 168px;
+    }
+    #page5-input-bar-city {
+        width: 525px;
+    }
+    #page5-input-bar-state {
+        width: 250px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-input-bar-zip {
+        width: 250px;
+        margin-top: 15px;
+        margin-left: 135px;
+    }
+    #page5-2col {
+        margin-left: 167px;
+    }
+    #page5-input-bar-col1 {
+        width: 525px;
+    }
+    #page5-input-bar-col2 {
+        width: 525px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 Plus 414px width) **********/
+
+@media (min-width: 376px) and (max-width: 414px) {
+    #page5-step-bar1,
+    #page5-step-bar2,
+    #page5-step-bar3,
+    #page5-step-bar4,
+    #page5-step-bar5,
+    #page5-step-bar6 {
+        font-size: 7px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page5-disclosure {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    #disclosure-text9,
+    #disclosure-text10,
+    #disclosure-close9,
+    #disclosure-close10 {
+        font-size: 8px;
+    }
+    #disclosure-text9 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close9 {
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
+    }
+    #page5-input-bar-address2 {
+        font-size: 8px;
+        width: 285px;
+        margin-left: 100px;
+    }
+    #page5-companylocation {
+        margin-left: 85px;
+    }
+    #page5-input-bar-city {
+        font-size: 8px;
+        width: 285px;
+    }
+    #page5-input-bar-state {
+        font-size: 8px;
+        width: 130px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-input-bar-zip {
+        font-size: 8px;
+        width: 130px;
+        margin-top: 15px;
+        margin-left: 75px;
+    }
+    #page5-2col {
+        margin-left: 85px;
+    }
+    #page5-input-bar-col1 {
+        font-size: 8px;
+        width: 285px;
+    }
+    #page5-input-bar-col2 {
+        font-size: 8px;
+        width: 285px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 6) **********/
+
+@media (min-width: 569px) and (max-width: 667px) {
+    #page5-step-bar1,
+    #page5-step-bar2,
+    #page5-step-bar3,
+    #page5-step-bar4,
+    #page5-step-bar5,
+    #page5-step-bar6 {
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page5-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text9,
+    #disclosure-text10,
+    #disclosure-close9,
+    #disclosure-close10 {
+        font-size: 10px;
+    }
+    #disclosure-text9 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close9 {
+        padding-top: 27px;
+        padding-bottom: 27px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 27px;
+        padding-bottom: 27px;
+    }
+    #page5-input-bar-address2 {
+        font-size: 10px;
+        width: 477px;
+        margin-left: 160px;
+    }
+    #page5-companylocation {
+        margin-left: 145px;
+    }
+    #page5-input-bar-city {
+        font-size: 10px;
+        width: 477px;
+    }
+    #page5-input-bar-state {
+        font-size: 10px;
+        width: 225px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-input-bar-zip {
+        font-size: 10px;
+        width: 225px;
+        margin-top: 15px;
+        margin-left: 125px;
+    }
+    #page5-2col {
+        margin-left: 145px;
+    }
+    #page5-input-bar-col1 {
+        font-size: 10px;
+        width: 477px;
+    }
+    #page5-input-bar-col2 {
+        font-size: 10px;
+        width: 477px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 375px width) **********/
+
+@media (min-width: 321px) and (max-width: 375px) {
+    #page5-step-bar1,
+    #page5-step-bar2,
+    #page5-step-bar3,
+    #page5-step-bar4,
+    #page5-step-bar5,
+    #page5-step-bar6 {
+        font-size: 7px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page5-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text9,
+    #disclosure-text10,
+    #disclosure-close9,
+    #disclosure-close10 {
+        font-size: 8px;
+    }
+    #disclosure-text9 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close9 {
+        padding-top: 31px;
+        padding-bottom: 31px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
+    }
+    #page5-input-bar-address2 {
+        font-size: 8px;
+        width: 260px;
+        margin-left: 85px;
+    }
+    #page5-companylocation {
+        margin-left: 70px;
+    }
+    #page5-input-bar-city {
+        font-size: 8px;
+        width: 260px;
+    }
+    #page5-input-bar-state {
+        font-size: 8px;
+        width: 120px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-input-bar-zip {
+        font-size: 8px;
+        width: 120px;
+        margin-top: 15px;
+        margin-left: 65px;
+    }
+    #page5-2col {
+        margin-left: 70px;
+    }
+    #page5-input-bar-col1 {
+        font-size: 8px;
+        width: 260px;
+    }
+    #page5-input-bar-col2 {
+        font-size: 8px;
+        width: 260px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 5) **********/
+
+@media (min-width: 481px) and (max-width: 586px) {
+    #page5-step-bar1,
+    #page5-step-bar2,
+    #page5-step-bar3,
+    #page5-step-bar4,
+    #page5-step-bar5,
+    #page5-step-bar6 {
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page5-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text9,
+    #disclosure-text10,
+    #disclosure-close9,
+    #disclosure-close10 {
+        font-size: 10px;
+    }
+    #disclosure-text9 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close9 {
+        padding-top: 27px;
+        padding-bottom: 27px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 27px;
+        padding-bottom: 27px;
+    }
+    #page5-input-bar-address2 {
+        font-size: 10px;
+        width: 403px;
+        margin-left: 135px;
+    }
+    #page5-companylocation {
+        margin-left: 120px;
+    }
+    #page5-input-bar-city {
+        font-size: 10px;
+        width: 403px;
+    }
+    #page5-input-bar-state {
+        font-size: 10px;
+        width: 190px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-input-bar-zip {
+        font-size: 10px;
+        width: 190px;
+        margin-top: 15px;
+        margin-left: 105px;
+    }
+    #page5-2col {
+        margin-left: 120px;
+    }
+    #page5-input-bar-col1 {
+        font-size: 10px;
+        width: 403px;
+    }
+    #page5-input-bar-col2 {
+        font-size: 10px;
+        width: 403px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (min-width:415px) and (max-width: 480px) {
+    #page5-step-bar1,
+    #page5-step-bar2,
+    #page5-step-bar3,
+    #page5-step-bar4,
+    #page5-step-bar5,
+    #page5-step-bar6 {
+        font-size: 9px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page5-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text9,
+    #disclosure-text10,
+    #disclosure-close9,
+    #disclosure-close10 {
+        font-size: 8px;
+    }
+    #disclosure-text9 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close9 {
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
+    }
+    #disclosure-text10 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
+    }
+    #page5-input-bar-address2 {
+        font-size: 9px;
+        width: 340px;
+        margin-left: 112px;
+    }
+    #page5-companylocation {
+        margin-left: 97px;
+    }
+    #page5-input-bar-city {
+        font-size: 9px;
+        width: 340px;
+    }
+    #page5-input-bar-state {
+        font-size: 9px;
+        width: 160px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-input-bar-zip {
+        font-size: 9px;
+        width: 160px;
+        margin-top: 15px;
+        margin-left: 90px;
+    }
+    #page5-2col {
+        margin-left: 97px;
+    }
+    #page5-input-bar-col1 {
+        font-size: 9px;
+        width: 340px;
+    }
+    #page5-input-bar-col2 {
+        font-size: 9px;
+        width: 340px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 5 and 4 320px width) **********/
+
+@media (max-width: 320px) {
+    #page5-step-bar1,
+    #page5-step-bar2,
+    #page5-step-bar3,
+    #page5-step-bar4,
+    #page5-step-bar5,
+    #page5-step-bar6 {
+        font-size: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page5-disclosure {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #disclosure-text9,
+    #disclosure-text10,
+    #disclosure-close9,
+    #disclosure-close10 {
+        font-size: 6px;
+    }
+    #disclosure-text9 {
+        width: 65%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close9 {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    #disclosure-text10 {
+        width: 65%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    #disclosure-close10 {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    #page5-input-bar-address2 {
+        font-size: 6px;
+        width: 218px;
+        margin-left: 70px;
+    }
+    #page5-companylocation {
+        margin-left: 55px;
+    }
+    #page5-input-bar-city {
+        font-size: 6px;
+        width: 218px;
+    }
+    #page5-input-bar-state {
+        font-size: 6px;
+        width: 100px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-input-bar-zip {
+        font-size: 6px;
+        width: 100px;
+        margin-top: 15px;
+        margin-left: 55px;
+    }
+    #page5-2col {
+        margin-left: 55px;
+    }
+    #page5-input-bar-col1 {
+        font-size: 6px;
+        width: 218px;
+    }
+    #page5-input-bar-col2 {
+        font-size: 6px;
+        width: 218px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    #page5-buttons {
+        margin-right: 0px;
+    }
+}
+
+
+/** Sign Up (page 6) **/
+
+#page6-step-bar5 {
+    color: #fff;
+    background-color: #56B841;
+    border: #fff solid 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#page6-step-bar1,
+#page6-step-bar2,
+#page6-step-bar3,
+#page6-step-bar4,
+#page6-step-bar6 {
+    color: #fff;
+    background-color: #2490D9;
+    border: #fff solid 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/** Step-bar Chevron **/
+@media (min-width: 1017px) {
+    #page6-step-bar1 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 100;
+    }
+    #page6-step-bar1:after, #page6-step-bar1:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page6-step-bar1:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page6-step-bar1:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page6-step-bar2 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 90;
+    }
+    #page6-step-bar2:after, #page6-step-bar2:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page6-step-bar2:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page6-step-bar2:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page6-step-bar3 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 80;
+    }
+    #page6-step-bar3:after, #page6-step-bar3:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page6-step-bar3:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page6-step-bar3:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page6-step-bar4 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 70;
+    }
+    #page6-step-bar4:after, #page6-step-bar4:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page6-step-bar4:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #2490D9;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page6-step-bar4:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+
+    #page6-step-bar5 {
+        position: relative;
+        border: 1px solid #fff;
+        z-index: 60;
+    }
+    #page6-step-bar5:after, #page6-step-bar5:before {
+        left: 100%;
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #page6-step-bar5:after {
+        border-color: rgba(86, 184, 65, 0);
+        border-left-color: #56B841;
+        border-width: 27.5px;
+        margin-top: -27.5px;
+    }
+    #page6-step-bar5:before {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #fff;
+        border-width: 28.5px;
+        margin-top: -28.5px;
+    }
+}
+/** Step-bar Chevron (end) **/
+
+#page6-logo {
+    margin-top: 20px;
+}
+
+#page6-funding-goal {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+#page6-text {
+    color: #BBBDBC;
+    margin-top: 20px;
+}
+
+#page6-text-link {
+    text-decoration: none;
+}
+
+#page6-regulation1,
+#page6-regulation2 {
+    border: #BBBDBC solid 1px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#page6-radio {
+    margin-top: 25px;
+}
+
+#page6-regulation1 {
+    height: 415px;
+    margin-left: 80px;
+}
+
+#page6-button {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#page6-singlebutton {
+    border: none;
+    padding: 10px;
+    width: 388px;
+}
+
+#page6-singlebutton a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/********** Medium devices only (iPad) **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+   #page6-regulation1 {
+        height: 435px;
+    } 
+}
+
+/********** Small devices only (e.g., iPad 768px width) **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #page6-step-bar1,
+    #page6-step-bar2,
+    #page6-step-bar3,
+    #page6-step-bar4,
+    #page6-step-bar5,
+    #page6-step-bar6 {
+        font-size: 11px;
+    }
+    #page6-funding-goal {
+        width: 600px;
+    }
+    #page6-text {
+        font-size: 10px;
+    }
+    #page6-regulation1 {
+        height: 655px;
+        margin-left: 50px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 6 Plus) **********/
+
+@media (min-width: 668px) and (max-width: 767px) {
+    #page6-step-bar1,
+    #page6-step-bar2,
+    #page6-step-bar3,
+    #page6-step-bar4,
+    #page6-step-bar5,
+    #page6-step-bar6 {
+        font-size: 10px;
+    }
+    #page6-funding-goal {
+        width: 600px;
+    }
+    #page6-text {
+        font-size: 10px;
+    }
+    #page6-regulation1 {
+        height: 100%;
+        margin-left: 10px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 Plus 414px width) **********/
+
+@media (min-width: 376px) and (max-width: 414px) {
+    #page6-step-bar1,
+    #page6-step-bar2,
+    #page6-step-bar3,
+    #page6-step-bar4,
+    #page6-step-bar5,
+    #page6-step-bar6 {
+        font-size: 7px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page6-funding-goal {
+        width: 365px;
+    }
+    #page6-text {
+        font-size: 10px;
+    }
+    #page6-regulation1 {
+        height: 100%;
+        margin-left: 10px;
+    }
+    #page6-singlebutton {
+        width: 365px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 6) **********/
+
+@media (min-width: 569px) and (max-width: 667px) {
+    #page6-step-bar1,
+    #page6-step-bar2,
+    #page6-step-bar3,
+    #page6-step-bar4,
+    #page6-step-bar5,
+    #page6-step-bar6 {
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page6-funding-goal {
+        width: 615px;
+    }
+    #page6-text {
+        font-size: 9px;
+    }
+    #page6-regulation1 {
+        height: 100%;
+        margin-left: 10px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 6 375px width) **********/
+
+@media (min-width: 321px) and (max-width: 375px) {
+    #page6-step-bar1,
+    #page6-step-bar2,
+    #page6-step-bar3,
+    #page6-step-bar4,
+    #page6-step-bar5,
+    #page6-step-bar6 {
+        font-size: 7px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page6-funding-goal {
+        width: 325px;
+    }
+    #page6-text {
+        font-size: 8px;
+    }
+    #page6-regulation1 {
+        height: 100%;
+        margin-left: 10px;
+    }
+    #page6-singlebutton {
+        width: 325px;
+    }
+}
+
+
+/********** Extra small devices only (iPhone 5) **********/
+
+@media (min-width: 481px) and (max-width: 586px) {
+    #page6-step-bar1,
+    #page6-step-bar2,
+    #page6-step-bar3,
+    #page6-step-bar4,
+    #page6-step-bar5,
+    #page6-step-bar6 {
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page6-funding-goal {
+        width: 520px;
+    }
+    #page6-text {
+        font-size: 10px;
+    }
+    #page6-regulation1 {
+        height: 100%;
+        margin-left: 10px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+@media (min-width:415px) and (max-width: 480px) {
+    #page6-step-bar1,
+    #page6-step-bar2,
+    #page6-step-bar3,
+    #page6-step-bar4,
+    #page6-step-bar5,
+    #page6-step-bar6 {
+        font-size: 9px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page6-funding-goal {
+        width: 430px;
+    }
+    #page6-text {
+        font-size: 9px;
+    }
+    #page6-regulation1 {
+        height: 100%;
+        margin-left: 10px;
+    }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 5 and 4 320px width) **********/
+
+@media (max-width: 320px) {
+    #page6-step-bar1,
+    #page6-step-bar2,
+    #page6-step-bar3,
+    #page6-step-bar4,
+    #page6-step-bar5,
+    #page6-step-bar6 {
+        font-size: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #page6-funding-goal {
+        width: 270px;
+    }
+    #page6-text {
+        font-size: 6px;
+    }
+    #page6-regulation1 {
+        height: 100%;
+        margin-left: 10px;
+    }
+    #page6-singlebutton {
+        width: 270px;
+    }
+}
